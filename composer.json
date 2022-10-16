@@ -1,0 +1,30 @@
+{
+    "name": "guilaradev/php-avancado",
+    "description": "Curso avancado de PHP com Composer",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Guilaradev\\PhpAvancado\\": "src/"
+        }
+    },  
+    "authors": [
+        {
+            "name": "devguilara",
+            "email": "fan3artc@outlook.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php" : ">=7.2.0"
+    },
+    "autoload" : {
+        
+        "psr-0" :{
+            "buscaCep" : "src"
+        },
+        "psr-4" : {
+            "Guilaradev\\PhpAvancado\\" :"src/"
+        }
+    }
+}
